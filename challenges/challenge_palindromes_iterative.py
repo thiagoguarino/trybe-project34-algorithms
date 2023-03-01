@@ -6,7 +6,7 @@ def is_palindrome_iterative(word):
     normal_word = word.lower()
     reversed_word = word[::-1].lower()
 
-    if (normal_word == ''): 
+    if (normal_word == ''):
         return False
 
     for letter in range(0, len(word)):
