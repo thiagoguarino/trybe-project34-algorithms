@@ -5,12 +5,6 @@ def is_palindrome_recursive(word, low_index, high_index):
     """
     normal_word = word.lower()
 
-    # Take two pointer L & R.
-    # L point to the first character of the string and R point to the last character of the String.
-    # if L >= R then returns True (means it is a palindrome)
-    # if S[L] != S[R] then returns False ( means it is not palindrome).
-    # otherwise return recursive functionis_palindrome(L+1, R+1,S) .
-
     if (normal_word == ''):
         return False
 
