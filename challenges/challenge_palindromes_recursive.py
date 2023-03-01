@@ -1,4 +1,4 @@
-# task 2
+# task 3
 def is_palindrome_recursive(word, low_index, high_index):
     """
     this function checks if a string is a palindrome or not
