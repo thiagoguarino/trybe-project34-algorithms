@@ -15,7 +15,7 @@
 # - algorithms: -- = --
 # - strategy: -- = --
 # - implementation: Iterative
-# - time complexity: O (n)
+# - time complexity: O (N log N)
 
 # RESTRICTIONS, REQUIREMENTS:
 # tip: sort the array - sort() or sorted() are allowed
