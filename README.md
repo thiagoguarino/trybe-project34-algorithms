@@ -105,3 +105,8 @@
 4. install dependencies
 
 - `python3 -m pip install -r dev-requirements.txt`
+
+5. how to execute the app
+
+- each file works on its own, so: `python3 filename.py`. 
+don't forget to call the functions on the file so it prints the outputs.
