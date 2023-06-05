@@ -21,30 +21,29 @@
 
     *Description* | *Status*
     --- | :---:
-    1.1 - return , para uma entrada específica, a quantidade de estudantes presentes | :heavy_check_mark:
-    1.2 - return  `None` se em `permanence_period` houver alguma entrada inválida | :heavy_check_mark:
-    1.3 - return  `None` se  `target_time` recebe um valor vazio | :heavy_check_mark:
-    1.4 - A função deverá, por meio de análise empírica, se comportar (no avaliador remoto em sua Pull Request) como no máximo O(n), ou seja, com complexidade assintótica linear | :heavy_check_mark:
-    2 - Implementar adequadamente o teste para a função `encrypt_message` | :heavy_check_mark:
-    3.1 - return `True` se a palavra passada por parâmetro for um palíndromo | :heavy_check_mark:
-    3.2 - return `False` se a palavra passada por parâmetro não for um palíndromo | :heavy_check_mark:
-    3.3 - return `False` se nenhuma palavra for passada por parâmetro | :heavy_check_mark:
-    4.1 - return `True` se as palavras passadas forem anagramas | :heavy_check_mark:
-    4.2 - return `False` se as palavras passadas por parâmetro não forem anagramas | :heavy_check_mark:
-    4.3 - return `false` se alguma das palavras passadas por parâmetro for uma string vazia | :heavy_check_mark:
-    4.4 - A função deverá, por meio de análise empírica, se comportar (no avaliador remoto em sua Pull Request) como no máximo O(n log n), ou seja, com complexidade assintótica linearítmica | :heavy_check_mark:
-    4.5 - return `True` se as palavras passadas forem anagramas sem diferenciar maiúsculas e minúsculas | :heavy_check_mark:
-    5.1 - return o número repetido se a função receber, como parâmetro, uma lista com números repetidos | :heavy_check_mark:
-    5.2 - return `False` se a função não receber nenhum parâmetro | :heavy_check_mark:
-    5.3 - return `False` se a função receber, como parâmetro, uma string | :heavy_check_mark:
-    5.4 - return `False` se a função receber, como parâmetro, uma lista sem números repetidos | :heavy_check_mark:
-    5.5 - return `False` se a função receber, como parâmetro, apenas um valor | :heavy_check_mark:
-    5.6 - return `False` se a função receber, como parâmetro, um número negativo | :heavy_check_mark:
-    5.7 - A função deverá, por meio de análise empírica, se comportar (no avaliador remoto em sua Pull Request) como no máximo O(n log n), ou seja, com complexidade assintótica linearítmica. | :heavy_check_mark:
-    6.1 - return `True` se a palavra passada como parâmetro for um palíndromo, executando uma função iterativa | :heavy_check_mark:
-    6.2 - return `True` se a palavra passada como parâmetro for um palíndromo, executando uma função iterativa | :heavy_check_mark:
-    6.3 - return `False` se nenhuma palavra for passada como parâmetro, executando uma função iterativa | :heavy_check_mark:
-    6.4 - A função deverá, por meio de análise empírica, se comportar (no avaliador remoto em sua Pull Request) como no máximo O(n), ou seja, com complexidade assintótica linear. | :heavy_check_mark:
+    1.1 - return the amount of present students, given a certain input entry | :heavy_check_mark:
+    1.2 - return  `None` if on `permanence_period` there is a invalid input | :heavy_check_mark:
+    1.3 - return  `None` if `target_time` receives an empty value | :heavy_check_mark:
+    1.4 - the function should have maximium complexity of O(n) | :heavy_check_mark:
+    2 - write the unit test dor function `encrypt_message` | :heavy_check_mark:
+    3.1 - return `True` if the word passed as a parameter is a palindrome | :heavy_check_mark:
+    3.2 - return `False` if the word passed as parameter is not a palindrome | :heavy_check_mark:
+    3.3 - return `False` if no word is passed as parameter | :heavy_check_mark:
+    4.1 - return `True` if the words passed are anagrams | :heavy_check_mark:
+    4.2 - return `False` if the words passed by parameter are not anagrams | :heavy_check_mark:
+    4.3 - return `false` if any of the words passed by parameter is an empty string | :heavy_check_mark:
+    4.4 - the function should have maximium complexity of O(n log n)  | :heavy_check_mark:
+    4.5 - return `True` if the words passed are non-case-insensitive anagrams | :heavy_check_mark:
+    5.1 - return the repeated number if the function receives, as a parameter, a list with repeated numbers | :heavy_check_mark:
+    5.2 - return `False` if the function takes no parameters | :heavy_check_mark:
+    5.3 - return `False` if the function takes a string as a parameter | :heavy_check_mark:
+    5.4 - return `False` if the function receives, as a parameter, a list without repeated numbers | :heavy_check_mark:
+    5.5 - return `False` if the function takes only one value as a parameter| :heavy_check_mark:
+    5.6 - return `False` if the function takes a negative number as a parameter | :heavy_check_mark:
+    5.7 - the function should have maximium complexity of O(n log n)  | :heavy_check_mark:
+    6.1 - returns `True` if the word passed as a parameter is a palindrome, executing an iterative solution | :heavy_check_mark:
+    6.2 - returns `False` if no word is passed as a parameter, executing an iterative solution | :heavy_check_mark:
+    6.3 - the function should have maximium complexity of O(n)  | :heavy_check_mark:
 
 </details>
 
