@@ -34,10 +34,10 @@
     4.3 - return `false` if any of the words passed by parameter is an empty string | :heavy_check_mark:
     4.4 - the function should have maximium complexity of O(n log n)  | :heavy_check_mark:
     4.5 - return `True` if the words passed are non-case-insensitive anagrams | :heavy_check_mark:
-    5.1 - return the repeated number if the function receives, as a parameter, a list with repeated numbers | :heavy_check_mark:
+    5.1 - return the repeated number if the function receives, as a param, a list with repeated numbers | :heavy_check_mark:
     5.2 - return `False` if the function takes no parameters | :heavy_check_mark:
     5.3 - return `False` if the function takes a string as a parameter | :heavy_check_mark:
-    5.4 - return `False` if the function receives, as a parameter, a list without repeated numbers | :heavy_check_mark:
+    5.4 - return `False` if the function receives, as a param, a list without repeated numbers | :heavy_check_mark:
     5.5 - return `False` if the function takes only one value as a parameter| :heavy_check_mark:
     5.6 - return `False` if the function takes a negative number as a parameter | :heavy_check_mark:
     5.7 - the function should have maximium complexity of O(n log n)  | :heavy_check_mark:
