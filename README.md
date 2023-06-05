@@ -107,8 +107,8 @@
 
 5. test the functions manually on each file. each file works on its on.
 
-a -  on file: challenges/challenge_anagrams.py - declare the is_anagram() to a variable
+    a -  on file: challenges/challenge_anagrams.py - declare the is_anagram() to a variable
 
-b - set the params: a = is_anagram("rosa", "raso"), then print it: print(a)
+    b - set the params: a = is_anagram("rosa", "raso"), then print it: print(a)
 
 6. how to execute the functions: `python3 challenges/challenge_anagrams.py`
