@@ -106,6 +106,6 @@
 
 - `python3 -m pip install -r dev-requirements.txt`
 
-5. how to execute the app: `python3 filename.py`
+5. how to execute the app: `python3 challenges/filename.py`
 
 - each file works on its own. don't forget to call the functions on the file so it prints the outputs.
