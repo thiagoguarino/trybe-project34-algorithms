@@ -106,7 +106,6 @@
 
 - `python3 -m pip install -r dev-requirements.txt`
 
-5. how to execute the app
+5. how to execute the app: `python3 filename.py`
 
-- each file works on its own, so: `python3 filename.py`. 
-don't forget to call the functions on the file so it prints the outputs.
+- each file works on its own. don't forget to call the functions on the file so it prints the outputs.
