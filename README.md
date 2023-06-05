@@ -41,7 +41,7 @@
     5.5 - return `False` if the function takes only one value as a parameter| :heavy_check_mark:
     5.6 - return `False` if the function takes a negative number as a parameter | :heavy_check_mark:
     5.7 - the function should have maximium complexity of O(n log n)  | :heavy_check_mark:
-    6.1 - returns `True` if the word passed as a parameter is a palindrome, executing an iterative solution | :heavy_check_mark:
+    6.1 - returns `True` if the word passed as a param is a palindrome, executing an iterative solution | :heavy_check_mark:
     6.2 - returns `False` if no word is passed as a parameter, executing an iterative solution | :heavy_check_mark:
     6.3 - the function should have maximium complexity of O(n)  | :heavy_check_mark:
 
