@@ -9,6 +9,9 @@
 
   <strong>FYI: every file that does not have a code authorship comment, was originally made by Trybe Bootcamp.</strong>
 
+
+## PROJECT TASKS
+
 <details>
   <summary>
     <b>Tasks and Status</b>
