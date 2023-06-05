@@ -105,6 +105,10 @@
 
 - `python3 -m pip install -r dev-requirements.txt`
 
-5. how to execute the app: `python3 challenges/filename.py`
+5. test the functions manually on each file. each file works on its on.
 
-- each file works on its own. don't forget to call the functions on the file so it prints the outputs.
+a -  on file: challenges/challenge_anagrams.py - declare the is_anagram() to a variable
+
+b - set the params: a = is_anagram("rosa", "raso"), then print it: print(a)
+
+6. how to execute the functions: `python3 challenges/challenge_anagrams.py`
