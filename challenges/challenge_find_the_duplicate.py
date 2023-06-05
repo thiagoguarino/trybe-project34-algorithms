@@ -20,6 +20,8 @@
 # RESTRICTIONS, REQUIREMENTS:
 # tip: sort the array - sort() or sorted() are allowed
 
+# file authorship: thiago guarino
+
 
 def find_duplicate(nums):
     """

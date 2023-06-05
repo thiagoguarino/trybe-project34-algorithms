@@ -20,6 +20,9 @@
 
 # Ref: https://stackabuse.com/merge-sort-in-python/
 
+# file authorship: thiago guarino
+
+
 def merge_sort(array, left_index, right_index):
     if left_index >= right_index:
         return

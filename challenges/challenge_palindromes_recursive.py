@@ -19,6 +19,9 @@
 # RESTRICTIONS, REQUIREMENTS:
 # the input can only by a word not a sentence or numbers
 
+# file authorship: thiago guarino
+
+
 def is_palindrome_recursive(word, low_index, high_index):
     """
     this function checks if a string (WORD) is a palindrome or not

@@ -17,6 +17,9 @@
 # RESTRICTIONS, REQUIREMENTS:
 # -- = --
 
+# file authorship: thiago guarino
+
+
 def study_schedule(permanence_period, target_time):
     """
     returns the count of students logged in the platform given a target time.
