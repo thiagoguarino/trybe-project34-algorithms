@@ -101,6 +101,33 @@
       eyes De olho na Dica: O melhor horário será aquele no qual o contador retornado pela função for o maior
 
   </details>
+  <details>
+  <summary>
+    <b>task 5</b>
+  </summary>
+      Você trabalha na maior empresa de educação do Brasil. Certo dia, a pessoa Product Manager (PM) quer saber qual horário tem a maior quantidade de pessoas estudantes acessando o conteúdo da plataforma. Com esse dado em mãos, a pessoa PM saberá qual é o melhor horário para disponibilizar os materiais de estudo para ter o maior engajamento possível.
+
+      O horário de entrada e saída do sistema é cadastrado no banco de dados toda vez que uma pessoa estudante entra e sai do sistema. Esses dados estarão contidos em uma lista de tuplas (permanence_period) em que cada tupla representa o período de permanência de uma pessoa estudante no sistema com seu horário de entrada e de saída.
+
+      Seu trabalho é descobrir qual o melhor horário para disponibilizar os conteúdos de estudo. Para isso, utilize a estratégia de resolução de problemas chamada força bruta em que a função desenvolvida por você será chamada várias vezes com valores diferentes para a variável target_time e serão analisados os retornos da função.
+
+      eyes De olho na Dica: O melhor horário será aquele no qual o contador retornado pela função for o maior
+
+  </details>
+  <details>
+  <summary>
+    <b>task 6</b>
+  </summary>
+      Você trabalha na maior empresa de educação do Brasil. Certo dia, a pessoa Product Manager (PM) quer saber qual horário tem a maior quantidade de pessoas estudantes acessando o conteúdo da plataforma. Com esse dado em mãos, a pessoa PM saberá qual é o melhor horário para disponibilizar os materiais de estudo para ter o maior engajamento possível.
+
+      O horário de entrada e saída do sistema é cadastrado no banco de dados toda vez que uma pessoa estudante entra e sai do sistema. Esses dados estarão contidos em uma lista de tuplas (permanence_period) em que cada tupla representa o período de permanência de uma pessoa estudante no sistema com seu horário de entrada e de saída.
+
+      Seu trabalho é descobrir qual o melhor horário para disponibilizar os conteúdos de estudo. Para isso, utilize a estratégia de resolução de problemas chamada força bruta em que a função desenvolvida por você será chamada várias vezes com valores diferentes para a variável target_time e serão analisados os retornos da função.
+
+      eyes De olho na Dica: O melhor horário será aquele no qual o contador retornado pela função for o maior
+
+  </details>
+
 
 </details>
 
