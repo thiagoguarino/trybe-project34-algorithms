@@ -238,4 +238,4 @@
 
 - `python3 -m pip install -r dev-requirements.txt`
 
-5. test the functions manually on each file. each file works on its on.
+5. to run the Evaluator just run the unit test command: `$ python3 -m pytest`
