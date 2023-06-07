@@ -64,17 +64,17 @@
     <b>Challenge 1</b>
   </summary>
 
-    Você trabalha na maior empresa de educação do Brasil. Certo dia, a pessoa Product Manager (PM) quer saber qual horário tem a maior quantidade de pessoas estudantes acessando o conteúdo da plataforma. Com esse dado em mãos, a pessoa PM saberá qual é o melhor horário para disponibilizar os materiais de estudo para ter o maior engajamento possível.
+    You work at the largest education company in Brazil. One day, the Product Manager wants to know which time has the highest number of students accessing the platform's content. With this data in hand, the PM will know the best time to make the study materials available to have the greatest possible engagement.
 
-    O horário de entrada e saída do sistema é cadastrado no banco de dados toda vez que uma pessoa estudante entra e sai do sistema. Esses dados estarão contidos em uma lista de tuplas (permanence_period) em que cada tupla representa o período de permanência de uma pessoa estudante no sistema com seu horário de entrada e de saída.
+    The entry and exit time of the system is registered in the database every time a student enters and exits the system. This data will be contained in a list of tuples (permanence_period) in which each tuple represents the period of permanence of a student in the system with his entry and exit time. [(2, 2), (1, 2), (2, 3), (1, 5), (4, 5), (4, 5)]
 
-    Seu trabalho é descobrir qual o melhor horário para disponibilizar os conteúdos de estudo. Para isso, utilize a estratégia de resolução de problemas chamada força bruta em que a função desenvolvida por você será chamada várias vezes com valores diferentes para a variável target_time e serão analisados os retornos da função.
+    Your job is to figure out the best time to make the study content available. To do so, use the problem-solving strategy called brute force in which the function you developed will be called several times with different values ​​for the target_time variable and the function returns will be analyzed.
 
-    De olho na Dica: O melhor horário será aquele no qual o contador retornado pela função for o maior
+    Hint: The best time will be the one at which the counter returned by the function is the greatest
 
-    O algoritmo deve utilizar a solução iterativa;
+    The algorithm must use the iterative solution;
 
-    Caso o target_time passado seja nulo, o valor retornado pela função deve ser None (considere o horário 0 como um horário válido);
+    If the target_time passed is null, the value returned by the function must be None (consider the time 0 as a valid time);
 
   </details>
     <details>
@@ -82,24 +82,23 @@
     <b>Challenge 2</b>
   </summary>
 
-    Durante a dinâmica em grupos de um processo seletivo, a empresa contratante definiu um desafio em duplas, e cada pessoa terá um papel. A primeira pessoa deve criar uma função de criptografia, e a segunda pessoa deve implementar os testes da função implementada pela primeira pessoa.
+    You will play the role of the second person in this dynamic, that is: you must implement the tests of a cryptographic function.
 
-    Você fará o papel da segunda pessoa nessa dinâmica, ou seja: deve implementar os testes de uma função de criptografia.
+    This test should be called test_encrypt_message, and it should ensure that the encrypt_message encryption function must respect specific logic.
 
-    Esse teste deve se chamar test_encrypt_message, e ele deve garantir que a função de criptografia encrypt_message deve respeitar uma lógica específica.
+    Understand the logic of the encryption function
 
-    Entenda a lógica da função de criptografia
-    Recebe uma string message e um inteiro key como parâmetros
+    Takes a string message and an integer key as parameters
 
-    Se key e message não possuírem os tipos corretos, uma exceção deve ser lançada
+    If key and message do not have the correct types, an exception must be thrown
 
-    Se key não for um índice positivo válido de message, retorna a string message invertida
+    If key is not a valid positive index of message, return the inverted message string
     
-    Se key for ímpar:
-    divide message no índice key, inverte os caracteres de cada parte, e retorna a união das partes novamente com "_" entre elas
+    If key is odd:
+    splits message at index key, reverses the characters of each part, and returns the union of the parts again with "_" between them
 
-    Se key for par:
-    divide message no índice key, inverte a posição das partes, inverte os caracteres de cada parte, e retorna a união das partes novamente com "_" entre elas
+    If key is even:
+    splits message at index key, reverses the position of the parts, reverses the characters of each part, and returns the union of the parts again with "_" between them
 
   </details>
   <details>
@@ -107,19 +106,19 @@
     <b>Challenge 3</b>
   </summary>
 
-    Escreva uma função que irá determinar se uma palavra é um palíndromo ou não. A função irá receber uma string de parâmetro e o retorno será um booleano, True ou False.
+    Write a function that will determine if a word is a palindrome or not. The function will receive a parameter string and the return will be a boolean, True or False.
 
-    Mas o que é um palíndromo?
+    But what is a palindrome?
 
-    Um palíndromo é uma palavra, frase ou número que mantém seu sentido mesmo sendo lido de trás para frente. Por exemplo, "ABCBA".
+    A palindrome is a word, phrase, or number that retains its meaning even when read backwards. For example, "ABCBA".
 
-    Neste projeto iremos focar somente em palavras palíndromas e não em frases ou números.
+    In this project we will only focus on palindromic words and not on sentences or numbers.
 
-    O algoritmo deve ser feito utilizando a solução recursiva;
+    The algorithm must be done using the recursive solution;
 
-    Não se preocupe com a análise da complexidade desse algoritmo;
+    Don't worry about analyzing the complexity of this algorithm;
 
-    Se for passado uma string vazia, retorne False;
+    If passed an empty string, return False;
 
   </details>
   <details>
@@ -127,28 +126,26 @@
     <b>Challenge 4</b>
   </summary>
 
-    Faça um algoritmo que consiga comparar duas strings, ordená-las e identificar se uma é um anagrama da outra. Ou seja, sua função irá receber duas strings de parâmetro e o retorno da função será uma tupla () com a primeira string ordenada, a segunda string ordenada e um booleano, True ou False representando se são anagramas.
+    Make an algorithm that can compare two strings, order them and identify if one is an anagram of the other. That is, your function will receive two parameter strings and the function return will be a tuple () with the first ordered string, the second ordered string and a boolean, True or False representing if they are anagrams.
 
-    O algoritmo deve considerar letras maiúsculas e minúsculas como iguais durante a comparação das entradas, ou seja, ser case insensitive.
+    The algorithm must consider uppercase and lowercase letters as equal when comparing entries, that is, be case insensitive.
 
-    Mas o que é um anagrama?
+    But what is an anagram?
 
-    "Um anagrama é uma espécie de jogo de palavras criado com a reorganização das letras de uma palavra ou expressão para produzir outras palavras ou expressões, utilizando todas as letras originais exatamente uma vez."
+    "An anagram is a kind of wordplay created by rearranging the letters of a word or phrase to produce other words or phrases, using all the original letters exactly once."
 
-    Utilize algoritmos de ordenação para realizar este requisito.
+    Use sorting algorithms to accomplish this requirement.
 
-    Você pode utilizar qualquer algoritmo que quiser (Selection sort, Insertion sort, Bubble sort, Merge sort, Quick sort ou TimSort), desde que atinja a complexidade O(n log n).
+    You can use any algorithm you want (Selection sort, Insertion sort, Bubble sort, Merge sort, Quick sort or TimSort), as long as it reaches O(n log n) complexity.
     
-    Dentre esses algoritmos citados acima, você deve escolher um que atinja a complexidade desejada pelo requisito e deverá adequá-lo ao problema. Para isso, você pode se basear nos algoritmos do course ou de alguma fonte de estudo, mas não esqueça de referenciá-la. O uso de funções prontas do Python não é permitido.
+    Among these algorithms mentioned above, you must choose one that reaches the desired complexity by the requirement and must adapt it to the problem. For this, you can base yourself on the course algorithms or on some study source, but don't forget to reference it. The use of built-in Python functions is not allowed.
 
-    Exemplos de funções prontas do Python não permitidas: sort, sorted e Counter;
-    Não será permitido realizar nenhuma importação neste arquivo!
+    Examples of not allowed built-in Python functions: sort, sorted and Counter;
+    It will not be allowed to use mports in this file!
 
-    A função retorna True caso uma string seja um anagrama da outra independente se as letras são maiúsculas ou minúsculas;
+    The function returns True if a string is an anagram of the other, regardless of whether the letters are uppercase or lowercase;
 
-    A função retorna False caso uma string não seja um anagrama da outra;
-
-    O código deve ser feito dentro do arquivo challenges/challenge_anagrams.py.
+    The function returns False if one string is not an anagram of the other;
 
   </details>
   <details>
@@ -156,23 +153,18 @@
     <b>Challenge 5</b>
   </summary>
 
-    Dada um array de números inteiros contendo n + 1 inteiros, chamado de nums, em que cada inteiro está no intervalo [1, n].
+    Given an array of integers containing n + 1 integers, called nums, where each integer is in the range [1, n], return a duplicate number in nums.
 
-    Retorne apenas um número duplicado em nums.
+    If you do not pass any value or a string or there are no repeated numbers, return False;
 
-    Caso não passe nenhum valor ou uma string ou não houver números repetidos retorne False;
+    The assembled array must:
+     - Have only positive integers greater than 1;
 
-    O array montado deve:
+     - Have only a single number repeating two or more times, all other numbers must appear only once;
 
-    Ter apenas números inteiros positivos maiores do que 1;
+     - Have at least two numbers.
 
-    Ter apenas um único número repetindo duas ou mais vezes, todos os outros números devem aparecer apenas uma vez;
-
-    Ter, no mínimo, dois números.
-
-    O código deve ser feito dentro do arquivo challenge_find_the_duplicate.py.
-
-    De olho na Dica: ordene o array.
+    Hint: Sort the array.
 
   </details>
   <details>
@@ -180,7 +172,7 @@
     <b>Challenge 6</b>
   </summary>
 
-    Resolva o mesmo problema apresentado no requisito 2 - Palíndromos, porém dessa vez utilizando a solução iterativa.
+    Solve the same problem presented in task 2, but this time using the iterative solution.
   
   </details>
 
